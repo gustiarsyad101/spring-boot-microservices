@@ -6,7 +6,7 @@ import dev.arsyad.microservices.product.application.query.model.QueryParameter;
 import java.util.List;
 
 
-public interface ProductCatalogQuery {
+public interface IProductCatalogQuery {
     Product getProduct(Long productId);
     List<Product> getProducts(QueryParameter queryParameter);
 

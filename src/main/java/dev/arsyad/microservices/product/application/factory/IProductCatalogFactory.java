@@ -1,8 +1,8 @@
 package dev.arsyad.microservices.product.application.factory;
 
-import dev.arsyad.microservices.product.application.command.ProductCatalogCommand;
-import dev.arsyad.microservices.product.application.query.ProductCatalogQuery;
-public interface ProductCatalogFactory {
+import dev.arsyad.microservices.product.application.command.IProductCatalogCommand;
+import dev.arsyad.microservices.product.application.query.IProductCatalogQuery;
+public interface IProductCatalogFactory {
 
 
     /**
@@ -10,13 +10,13 @@ public interface ProductCatalogFactory {
      *
      * @return ProductCatalogCommand
      */
-    ProductCatalogCommand getProductCatalogCommand();
+    IProductCatalogCommand getProductCatalogCommand();
 
     /**
      * returns product catalog query
      *
      * @return query
      */
-    ProductCatalogQuery getProductQuery();
+    IProductCatalogQuery getProductQuery();
 
 }

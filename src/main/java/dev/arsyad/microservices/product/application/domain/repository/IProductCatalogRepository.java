@@ -7,7 +7,7 @@ import java.util.List;
 
 /** Domain repository for the product catalog. */
 
-public interface ProductCatalogRepository {
+public interface IProductCatalogRepository {
 
     Long save(Product product);
 
